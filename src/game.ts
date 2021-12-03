@@ -321,7 +321,7 @@ const locations: Location[] = [
             'Schwarzfahrer'
         ])
     },
-].map(location => Object.freeze(location))
+].sort((a, b) => (a.name > b.name) ? 1 : -1).map(location => Object.freeze(location))
 
 export function getAllLocations(): readonly Location[] {
     return locations
@@ -333,7 +333,7 @@ export function getRandomLocation(): Location {
 }
 
 export function getRandomRoles(location: Location, number: number) {
-    if (location.roles.length < number) {
+    if (location.roles.length + 1 < number) {
         throw new Error('The location does not have enough roles.')
     }
 
