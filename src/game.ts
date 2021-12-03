@@ -68,7 +68,259 @@ const locations: Location[] = [
             'Weltraumtourist:in',
             'Wissenschaftler:in'
         ])
-    }
+    },
+    {
+        name: 'Wellness-Tempel',
+        roles: roles([
+            'Gast',
+            'Masseur',
+            'Nageldesigner',
+            'Friseur',
+            'Reinigungskraft',
+            'Kosmetiker',
+            'Stylist'
+        ])
+    },
+    {
+        name: 'Hotel',
+        roles: roles([
+            'Rezeptionist',
+            'Zimmermädchen',
+            'Hoteldirektor',
+            'Barkeeper',
+            'Hotelgast',
+            'Page',
+            'Portier7'
+        ])
+    },
+    {
+        name: 'Werkstatt',
+        roles: roles([
+            'Empfangsdame',
+            'Motorradfahrer',
+            'Autofahrer',
+            'Servicetechniker',
+            'Geschäftsführer',
+            'Kfz-Mechaniker',
+            'Spengler'
+        ])
+    },
+    {
+        name: 'Botschaft',
+        roles: roles([
+            'Flüchtling',
+            'Diplomat',
+            'Sicherheitsbeamter',
+            'Sekretär',
+            'Tourist',
+            'Chauffeur',
+            'Botschafter'
+        ])
+    },
+    {
+        name: 'Firmenfeier',
+        roles: roles([
+            'Generaldirektor',
+            'Großkunde',
+            'DJ',
+            'Partycrasher',
+            'Buchhalter',
+            'Sektretärin',
+            'Abteilungsleiter'
+        ])
+    },
+    {
+        name: 'Polizeistation',
+        roles: roles([
+            'Gefangener',
+            'Ermittler',
+            'Pressesprecher',
+            'Polizist',
+            'Strafverteidiger',
+            'Archivar',
+            'Kriminalbeamter'
+        ])
+    },
+    {
+        name: 'Supermarkt',
+        roles: roles([
+            'Praktikant',
+            'Regalbetreuer',
+            'Fleischermeister',
+            'Kassierer',
+            'Kunde',
+            'Filialleiter',
+            'Ladendetektiv'
+        ])
+    },
+    {
+        name: 'Universität',
+        roles: roles([
+            'Tutor',
+            'Student',
+            'Psychologe',
+            'Studienberater',
+            'Dekan',
+            'Professor',
+            'Bibliothekar'
+        ])
+    },
+    {
+        name: 'Flugzeug',
+        roles: roles([
+            'Copilot',
+            'Blinder Passagier',
+            'Passagier erster Klasse',
+            'Flugbegleiter',
+            'Flugingenieur',
+            'Fluggast',
+            'Pilot'
+        ])
+    },
+    {
+        name: 'Filmstudio',
+        roles: roles([
+            'Statist',
+            'Kameramann',
+            'Schaustpieler',
+            'Kostümdesigner',
+            'Regisseur',
+            'Tontechniker',
+            'Stuntman'
+        ])
+    },
+    {
+        name: 'Polarstation',
+        roles: roles([
+            'Arzt',
+            'Expeditionsleiter',
+            'Funker',
+            'Hydrologe',
+            'Geologe',
+            'Meteorologe',
+            'Biologe'
+        ])
+    },
+    {
+        name: 'Strand',
+        roles: roles([
+            'Taucher',
+            'Surfer',
+            'Animateur',
+            'Rettungsschwimmer',
+            'Strandverkäufer',
+            'Urlauber',
+            'Dieb'
+        ])
+    },
+    {
+        name: 'Theater',
+        roles: roles([
+            'Theaterdirektor',
+            'Garderobier',
+            'Zuschauer',
+            'Platzanweiser',
+            'Schauspieler',
+            'Soufleur',
+            'Bühnenarbeiter'
+        ])
+    },
+    {
+        name: 'U-Boot',
+        roles: roles([
+            'Koch',
+            'Navigationsoffizier',
+            'Matrose',
+            'Elektriker',
+            'Funker',
+            'Maschinenarbeiter',
+            'Admiral'
+        ])
+    },
+    {
+        name: 'Zirkus',
+        roles: roles([
+            'Hochseilakrobat',
+            'Feuerschlucker',
+            'Clown',
+            'Messerwerfer',
+            'Jongleur',
+            'Zauberer',
+            'Dompteur'
+        ])
+    },
+    {
+        name: 'Restaurant',
+        roles: roles([
+            'Kellner',
+            'Sommelier',
+            'Restaurantkritiker',
+            'Küchenhilfe',
+            'Restaurantleiter',
+            'Pianist',
+            'Gast'
+        ])
+    },
+    {
+        name: 'Schule',
+        roles: roles([
+            'Vertrauenslehrer',
+            'Schulwart',
+            'Turnlehrer',
+            'Schüler',
+            'Klassensprecher',
+            'Schulinspektor',
+            'Schuldirektor'
+        ])
+    },
+    {
+        name: 'Piratenschiff',
+        roles: roles([
+            'Steuermann',
+            'Bootsmann',
+            'Kapitän',
+            'Gefangener',
+            'Schiffsjunge',
+            'Geschützoffizier',
+            'Koch'
+        ])
+    },
+    {
+        name: 'Kreuzfahrtschiff',
+        roles: roles([
+            'Kapitän',
+            'Barkeeper',
+            'Matrose',
+            'Musiker',
+            'Steward',
+            'Passagier',
+            'Reiseleiter'
+        ])
+    },
+    {
+        name: 'Krankenhaus',
+        roles: roles([
+            'Krankenschwester',
+            'Assistenzarzt',
+            'Pfleger',
+            'Patient',
+            'Internist',
+            'Chirurg',
+            'Pathologe'
+        ])
+    },
+    {
+        name: 'Dampflokomotive',
+        roles: roles([
+            'Heizer',
+            'Grenzposten',
+            'Schaffner',
+            'Speisewagenbegleiter',
+            'Fahrgast',
+            'Lokführer',
+            'Schwarzfahrer'
+        ])
+    },
 ].map(location => Object.freeze(location))
 
 export function getAllLocations(): readonly Location[] {
