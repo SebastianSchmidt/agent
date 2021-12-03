@@ -18,6 +18,7 @@ const number = ref(3)
                 type="number"
                 min="3"
                 max="8"
+                inputmode="decimal"
                 v-model="number"
             />
         </div>
